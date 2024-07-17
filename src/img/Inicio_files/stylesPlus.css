@@ -1,0 +1,112 @@
+/*--------------Keyboard Shortcuts-----------*/
+/*Controles  keyboard shortcut*/
+
+.shortcuts_wrap
+{
+    line-height: 30px;
+	background-color: #9FADBB;
+	text-align: center;
+	text-align: center;
+    margin-top: 15px;
+}
+
+.shortcuts_wrap ul li {
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.key {
+display: inline-block;
+    font-size: 12px;
+    width: 21px;
+    height: 21px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+    color: #7f8387;
+    font-size: bold;
+    background: #eeeff2 center center no-repeat;
+    -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.75) inset,0px 0px 1px 1px rgba(255,255,255,0.4);
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.75) inset,0px 0px 1px 1px rgba(255,255,255,0.4);
+    border: 1px solid #b9c1c7;
+    position: relative;
+    -webkit-transition: all 0.05s ease-in-out;
+    -moz-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+	}
+a.key{
+    text-decoration: none;
+    outline: none;
+}
+.label
+{
+    color: #F4F4F4;;
+}
+
+/*-------------------------------------------------------*/
+
+.infodocs{
+margin-left: auto;
+margin-right: auto;
+text-align: center;}
+
+.listdoc {
+    margin-bottom: 5px;
+}
+
+.divline{
+    border-bottom: #C3C4CA;
+    border-width: 2px;
+    border-width: 1px;
+    margin-bottom: 25px;
+    border-style: solid;
+}
+/*
+.wpthemeOverflowAuto ul {
+    margin-left: 30%;
+    padding-left: 25px;
+    margin-right: 70%;
+    width: 150px;
+
+}*/
+
+.Blanco {
+    background: white;
+}
+
+
+span.Blanco span.parrafo5 {
+	background: white;
+}
+
+
+.Gris {
+    background: #f3f4f4;
+}
+
+span.Gris span.parrafo5 {
+	background: #f3f4f4;
+}
+
+.Destacado{
+    background: #00a8ec;
+
+}
+
+span.Destacado span.parrafo5 {
+	background: #00a8ec;
+}
+
+.Resaltar
+{
+    background: #FFD200;
+
+}
+
+span.Resaltar span.parrafo5 {
+	background: #FFD200;
+}

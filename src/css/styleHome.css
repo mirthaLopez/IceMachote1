@@ -1,0 +1,329 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*Remueve el margen de toda la pagina*/
+* {
+    margin: 0;
+}
+
+/*darle padding a las sections the texto*/
+header {
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: #004B93;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+    text-align: justify;
+    padding-top: 25px;
+}
+
+
+
+.logoIce {
+    max-width: 80%;
+    display: block;
+}
+
+.lupa {
+    width: 40px;
+    height: 40px;
+
+}
+
+.mapaSitio {
+    width: 40px;
+    height: 40px;
+}
+
+.hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.primerBanner {
+    background-image: url(../img/bannerElectroAsistencia.png);
+    height: 446px;
+    width: 1300px;
+    padding-top: 280px;
+    padding-bottom: 160px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.BCM {
+    text-align: center;
+}
+
+.botonConozcaMas:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.botonConozcaMas {
+    height: 60px;
+    width: 120px;
+    font-size: 14px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, hsla(0, 1%, 17%, 0.614) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
+    border-radius: 16px;
+
+}
+
+.decoracionBoton {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.textoBanner {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, hsla(240, 1%, 46%, 0.639) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
+    /*background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(108, 114, 116, 0.938048547055541) 100%);*/
+}
+
+.textoSaludo {
+    text-align: center;
+    color: #004B93;
+    height: 160px;
+}
+
+.estadosFinancieros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.textoEstados {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 20px;
+    padding-right: 100px;
+
+}
+
+.clickEstados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagenEstados {
+    text-align: end;
+    padding-right: 20px;
+}
+
+.textoConsultas {
+    text-align: center;
+    color: #004B93;
+    padding-top: 40px;
+    height: 120px;
+}
+
+.serviciosGrid {
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url(../img/backgroundServPrinc.png);
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.gridServices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
+    border-radius: 5px;
+}
+
+.moverTexto {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.moverIcono {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.gridServices:hover {
+    border: 2px solid #004B93;
+}
+
+.tamanoIconos {
+    height: 70%;
+    width: 60%;
+}
+
+/*#video{
+   position:relative;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+}*/
+
+.negociosGrid {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.moverElectricida {
+    text-align: right;
+}
+
+.moverTelecomunicaciones {
+    text-align: left;
+}
+
+.sizeImg {
+    height: 50%;
+    width: 50%;
+}
+
+.botonVerMas {
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    background: #004B93;
+    border: none;
+    box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
+    border-radius: 12px;
+}
+
+.estiloBoton {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.articulos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.estiloArticulos{
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tamanoPic{
+    height: 300px;
+    width: 340px;
+    display: inline-block;
+}
+
+.estiloArticulos:hover{
+   box-shadow: rgba(0, 0, 0, 0.40) 0px 22px 70px 4px;
+}
+
+.calificanos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+
+.estrellas{
+    height: 40px;
+    width: 80px;
+}
+
+.ratingButton{
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #004B93;
+    border: none;
+    box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
+    border-radius: 12px;
+    background: linear-gradient(to left, #004B93 50%, #fff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.ratingButton:hover{
+    background-position: left;
+}
+
+.btnRating{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnRating:hover{
+    color: black;
+}
+
+.estilosFooter{
+    height: 300px;
+    background-color: #6c757d;
+}
+
+.gridFooter{
+    height: 120px;
+    background-color: hsla(200, 3%, 44%, 0.808);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    
+}
+
+.gridFila1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding-top: 20px;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 20px;
+
+
+}
+.estilosFila1{
+    display: grid;
+    grid-template-columns: 20px 200px;
+}
+.gridFilas2{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.whatsapp{
+    height: 20px;
+    width: 20px;
+}
+
+.btnIdioma{
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
+

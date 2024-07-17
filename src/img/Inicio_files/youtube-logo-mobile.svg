@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>CEF8A9C9-132C-46F6-A93A-EAD0FEA15AF4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.000485403231%" x2="50%" y2="99.9995146%" id="linearGradient-1">
+            <stop stop-color="#ED1C24" offset="0%"></stop>
+            <stop stop-color="#BE1E2D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Cel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-desplegado" transform="translate(-207.000000, -510.000000)">
+            <g id="Group-11" transform="translate(207.000000, 510.000000)">
+                <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="1" y="0" width="25" height="27" rx="5"></rect>
+                <g id="Youtube-logo-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M19.9453125,0 L7.0546875,0 C0,0 0,2.89640108 0,10.0194508 L0,16.9805492 C0,23.7544206 0.999375,27 7.0546875,27 L19.9453125,27 C25.4146875,27 27,25.1024548 27,16.9805492 L27,10.0194508 C27,2.52194716 26.73375,0 19.9453125,0 Z M9.519375,18.7910339 L9.519375,7.86353235 L20.0221875,13.3099646 L9.519375,18.7910339 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
