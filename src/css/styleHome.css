@@ -43,9 +43,12 @@ header {
     color: #fff;
 }
 
-.hover:hover {
-    opacity: 0.8;
-    cursor: pointer;
+.ocultar {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ocultar:hover{
     text-decoration: none;
 }
 
