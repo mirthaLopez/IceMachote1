@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*Remueve el margen de toda la pagina*/
+* {
+    margin: 0;
+}
+
+/*darle padding a las sections the texto*/
+header {
+    height: 85px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr;
+    background: linear-gradient(277.29deg, #003E7A 0%, #004B93 106.04%);
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.logoIce {
+    max-width: 80%;
+    display: block;
+}
+
+.lupa {
+    width: 40px;
+    height: 40px;
+
+}
+
+.mapaSitio {
+    width: 40px;
+    height: 40px;
+}
+
+.hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ocultar {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ocultar:hover{
+    text-decoration: none;
+}
+.directorio{
+    height: 50px;
+    padding: 20px;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    height: 100px;
+    display: flex;
+    color: #004B93;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.moverHr{
+    display: flex;
+    justify-content: center;
+}
+
+hr {border: 3px solid #d8e78e; 
+    border-radius: 300px/10px; 
+    height: 0px; 
+    width: 50%;
+    text-align: center;
+}
+
+.barraGrid{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.hijosBarraGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    color: grey;
+    font-size: 17px;
+}
+
+.hijos:hover{
+    text-decoration: underline #004B93;
+    color: #004B93;
+}
+
+.gridContact{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gridRedes{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: right;
+    padding-right: 0%;
+}
+
+.estiloRedes{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: rgb(152, 151, 151);
+}
+
+.nosotrosTitulo{
+    padding: 80px;
+    color: #004B93;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.nosotrosTexto{
+    padding: 60px;
+}
+
+.estilosFooter{
+    height: 300px;
+    background-color: #6c757d;
+}
+
+.gridFooter{
+    height: 120px;
+    background-color: hsla(200, 3%, 44%, 0.808);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    
+}
+
+.gridFila1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding-top: 20px;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 20px;
+
+
+}
+.estilosFila1{
+    display: grid;
+    grid-template-columns: 20px 200px;
+}
+.gridFilas2{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.whatsapp{
+    height: 20px;
+    width: 20px;
+}
+
+.btnIdioma{
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
