@@ -11,19 +11,16 @@
 
 /*darle padding a las sections the texto*/
 header {
-    height: 80px;
+    height: 85px;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    background-color: #004B93;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr;
+    background: linear-gradient(277.29deg, #003E7A 0%, #004B93 106.04%);
     font-size: 14px;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
-    text-align: end;
-    text-align: justify;
+    text-align: center;
     padding-top: 25px;
 }
-
-
 
 .logoIce {
     max-width: 80%;
@@ -41,9 +38,15 @@ header {
     height: 40px;
 }
 
+.hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 .hover:hover {
     opacity: 0.8;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .primerBanner {
