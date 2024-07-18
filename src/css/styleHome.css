@@ -6,8 +6,11 @@
 
 /*Remueve el margen de toda la pagina*/
 * {
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
 
 /*darle padding a las sections the texto*/
 header {
@@ -38,7 +41,7 @@ header {
     height: 40px;
 }
 
-.hover{
+.hover {
     text-decoration: none;
     color: #fff;
 }
@@ -48,56 +51,119 @@ header {
     text-decoration: none;
 }
 
-.ocultar:hover{
+.ocultar:hover {
     text-decoration: none;
 }
 
-.primerBanner {
-    background-image: url(../img/bannerElectroAsistencia.png);
-    height: 446px;
-    width: 1300px;
-    padding-top: 280px;
-    padding-bottom: 160px;
-    padding-left: 300px;
-    padding-right: 300px;
+.carrusel {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
 }
 
-.BCM {
-    text-align: center;
+.sliders {
+    width: 400%;
+    height: 100%;
+    display: flex;
 }
 
-.botonConozcaMas:hover {
-    opacity: 0.8;
+.imagenes {
+    width: calc(100%/4);
+    height: 100%;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botonIzquierda,
+.botonDerecha {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 5rem;
+    background-color: hsla(0, 0%, 100%, 0.896);
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
     cursor: pointer;
+    color: hsla(240, 84%, 59%, 0.719);
+    transform: translate(0, -50%);
+    transition: 0.5s ease;
+    user-select: none;
 }
 
-.botonConozcaMas {
-    height: 60px;
+.botonInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    height: 50px;
     width: 120px;
     font-size: 14px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, hsla(0, 1%, 17%, 0.614) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
-    color: #FFFFFF;
+    background: #FCD101;
     border: none;
     box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
     border-radius: 16px;
+    padding: 1em;
+    justify-content: center;
 
 }
 
 .decoracionBoton {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
+
+.infoTitulo {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, hsla(240, 28%, 7%, 0.639) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
+}
+
+.infoSubT {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, hsla(240, 28%, 7%, 0.639) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
+}
+
+.botonMover {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.botonDerecha:hover,
+.botonIzquierda:hover {
+    background-color: white;
+    color: blue;
+}
+
+.botonDerecha {
+    right: 10px;
+}
+
+.botonIzquierda {
+    left: 10px;
+}
+
 .textoBanner {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     color: #fff;
     border: none;
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, hsla(240, 1%, 46%, 0.639) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
+    background: linear-gradient(90deg, hsla(240, 28%, 7%, 0.639) 8%, rgba(108, 114, 116, 0.938048547055541) 93%);
     /*background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(108, 114, 116, 0.938048547055541) 100%);*/
 }
@@ -223,42 +289,42 @@ header {
     font-size: larger;
 }
 
-.articulos{
+.articulos {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-block: 2rem;
     width: min(95%, 70rem);
     margin-inline: auto;
 }
 
-.estiloArticulos{
+.estiloArticulos {
     border-radius: 5px;
     text-align: center;
 }
 
-.tamanoPic{
+.tamanoPic {
     height: 300px;
     width: 340px;
     display: inline-block;
 }
 
-.estiloArticulos:hover{
-   box-shadow: rgba(0, 0, 0, 0.40) 0px 22px 70px 4px;
+.estiloArticulos:hover {
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 22px 70px 4px;
 }
 
-.calificanos{
+.calificanos {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 40px;
 }
 
-.estrellas{
+.estrellas {
     height: 40px;
     width: 80px;
 }
 
-.ratingButton{
+.ratingButton {
     height: 40px;
     width: 120px;
     font-size: 14px;
@@ -271,34 +337,35 @@ header {
     background-size: 200%;
     transition: .5s ease-out;
 }
-.ratingButton:hover{
+
+.ratingButton:hover {
     background-position: left;
 }
 
-.btnRating{
+.btnRating {
     text-decoration: none;
     color: #fff;
 }
 
-.btnRating:hover{
+.btnRating:hover {
     color: black;
 }
 
-.estilosFooter{
+.estilosFooter {
     height: 300px;
     background-color: #6c757d;
 }
 
-.gridFooter{
+.gridFooter {
     height: 120px;
     background-color: hsla(200, 3%, 44%, 0.808);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #fff;
-    
+
 }
 
-.gridFila1{
+.gridFila1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
@@ -309,11 +376,13 @@ header {
 
 
 }
-.estilosFila1{
+
+.estilosFila1 {
     display: grid;
     grid-template-columns: 20px 200px;
 }
-.gridFilas2{
+
+.gridFilas2 {
     padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
@@ -322,14 +391,13 @@ header {
 
 }
 
-.whatsapp{
+.whatsapp {
     height: 20px;
     width: 20px;
 }
 
-.btnIdioma{
+.btnIdioma {
     background-color: #6c757d;
     color: #fff;
     border: none;
 }
-
